@@ -1,0 +1,15 @@
+<div class="mb-4 pt-3">
+  <a href="/dashboard/create/"><button id="create-post" class="btn is-primary is-pulled-right">Create Post</button></a>
+<h2 class="sports_title pb-4">dashboard: sports post</h2>
+{{#if posts.length}}
+</div>
+  <ol>
+    {{#each posts as |post|}}
+    <li>
+      {{> post-info post}}
+      <a href="/dashboard/edit/{{post.id}}"><button class="btn mb-5 ml-5 is-warning">Edit post</button></a>
+    </li>
+    {{/each}}
+  </ol>
+{{/if}}
+
