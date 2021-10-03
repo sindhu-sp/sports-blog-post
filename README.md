@@ -48,7 +48,7 @@ As a football fan the user want to develop a blog site, so that they can publish
 <img src="./assets/edit-post.png" alt="refresh page" height = 300 width= 300 />
 
 ## Deployed to heroku link
- https://desolate-bayou-40911.herokuapp.com/
+ https://desolate-bayou-51622.herokuapp.com/
 
 ## GitHub Link
 https://github.com/sindhu-sp/sports-blog-post
