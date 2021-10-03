@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sports Blog</title>
+  <title>Football Fans Blog</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 <script
@@ -15,34 +15,29 @@
 
 <body>
   <div class="wrapper">
-    <header>
+    <header class="hero">
       <h1>
-        <a href="/">Sports Blog</a>
-      </h1>
+  <a href="/">Football Fans Blog</a>
+</h1>
+  <div>    
   <nav class="navbar mt-2">
   {{#if loggedIn}}
-  <a href="/" class="navbar-item is-hoverable pt-1">homepage</a>
-  <a href="/dashboard" class="navbar-item is-hoverable pt-1">dashboard</a>
-  <a href="/dashboard/create/" class="navbar-item is-hoverable pt-1 mr-4">create post</a>
+  <a href="/" class="navbar-item is-hoverable pt-1">Home</a>
+  <a href="/dashboard" class="navbar-item is-hoverable pt-1">Dashboard</a>
+  <a href="/dashboard/create/" class="navbar-item is-hoverable pt-1 mr-4">Create post</a>
   <button id="logout" class="btn is-danger">logout</button>
   {{else}}
-  <a href="/" class="navbar-item is-hoverable pt-1">homepage</a>
+  <a href="/" class="navbar-item is-hoverable pt-1">Home</a>
   <a href="/login" class="btn is-primary">login</a>
   {{/if}}
 </nav>
+</div>
+
 </header>
 <main>
       {{{ body }}}
 </main>
 <footer class="footer rows pb-2">
-      <div class="row is-full content has-text-centered">
-        <a href="/">homepage</a>{{#if loggedIn}} |
-        <a href="/dashboard/">dashboard</a> |
-        <a href="/dashboard/create/">create new post</a>
-        {{else}}
-        | <a href="/login/">login</a> 
-        {{/if}}
-      </div>
       Thanks for visiting!
 </footer>
 </div>

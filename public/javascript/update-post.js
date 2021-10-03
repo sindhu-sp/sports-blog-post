@@ -1,7 +1,7 @@
-async function editFormHandler(event) {
+async function updateFormHandler(event) {
     event.preventDefault();
 
-    const sports_title = document.querySelector('input[name="post-title"]').value.trim();
+    const sports_title = document.querySelector('input[name="post-sports_title"]').value.trim();
     const post_comments = document.querySelector('input[name="post-comments"]').value.trim();
     const id = window.location.toString().split('/')[
         window.location.toString().split('/').length - 1
@@ -24,4 +24,7 @@ async function editFormHandler(event) {
   
   }
   
-  document.querySelector('.edit-post-form').addEventListener('submit', editFormHandler);
+  var cf=document.querySelector('.update-post-form');
+ if (cf){
+  cf.addEventListener('submit', updateFormHandler);
+ }
