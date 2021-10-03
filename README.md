@@ -61,5 +61,4 @@ https://github.com/sindhu-sp/sports-blog-post
 - Bulma
 
 
-
 #### Sindhu Pillai
