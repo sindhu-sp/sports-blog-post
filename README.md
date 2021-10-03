@@ -47,6 +47,12 @@ As a football fan the user want to develop a blog site, so that they can publish
 <img src="./assets/create-post.png" alt="refresh page" height = 300 width= 300 />
 <img src="./assets/edit-post.png" alt="refresh page" height = 300 width= 300 />
 
+## Deployed to heroku link
+https://git.heroku.com/desolate-bayou-51622.git
+
+## GitHub Link
+https://github.com/sindhu-sp/sports-blog-post
+
 ## Technologies Used:
 - MySQL2
 - Sequelize
